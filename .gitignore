@@ -1,0 +1,45 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Outputs
+outputs/
+
+# Dataset
+CamVid/cloudy/test_labels/
+CamVid/cloudy/train_labels/
+CamVid/cloudy/val_labels/
+CamVid/sunny/test_labels/
+CamVid/sunny/train_labels/
+CamVid/sunny/val_labels/
+
+# Configurations
+config.py
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files
+*.pth
+*.h5
+
+# Visualization
+visualization/improved_unet_predictions/
+visualization/unet_predictions/
