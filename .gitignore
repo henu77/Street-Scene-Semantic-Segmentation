@@ -11,9 +11,6 @@ venv/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# System files
-.DS_Store
-Thumbs.db
 
 # Logs
 *.log
@@ -22,12 +19,8 @@ Thumbs.db
 outputs/
 
 # Dataset
-CamVid/cloudy/test_labels/
-CamVid/cloudy/train_labels/
-CamVid/cloudy/val_labels/
-CamVid/sunny/test_labels/
-CamVid/sunny/train_labels/
-CamVid/sunny/val_labels/
+CamVid/*
+
 
 # Configurations
 config.py
