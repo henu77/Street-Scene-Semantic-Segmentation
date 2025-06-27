@@ -19,7 +19,7 @@ venv/
 outputs/
 
 # Dataset
-CamVid/*
+CamVid/**
 
 
 # Configurations
