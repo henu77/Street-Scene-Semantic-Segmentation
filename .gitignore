@@ -19,11 +19,8 @@ venv/
 outputs/
 
 # Dataset
-CamVid/**
+CamVid/*
 
-
-# Configurations
-config.py
 
 # Temporary files
 *.tmp
@@ -34,5 +31,4 @@ config.py
 *.h5
 
 # Visualization
-visualization/improved_unet_predictions/
-visualization/unet_predictions/
+visualization/*
